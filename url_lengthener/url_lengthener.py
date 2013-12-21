@@ -4,7 +4,7 @@ import argparse
 from requests.exceptions import ConnectionError
 
 def get_url_info(short_url):
-    '''Gets user info about the url'''
+    '''Gets info about the url'''
     try:
         response = requests.get(short_url)
 
